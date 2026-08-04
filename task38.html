@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 38 - Sticky Navbar</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #1f2937;
+      color: white;
+      padding: 15px;
+      z-index: 10;
+    }
+    nav a { color: white; margin-right: 15px; text-decoration: none; }
+    .content { padding: 20px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="content">
+    <h1>Sticky Navigation</h1>
+    <p>Scrolling keeps the navbar visible.</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+  </div>
+</body>
+</html>
