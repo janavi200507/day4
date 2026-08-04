@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 45 - Specificity Hierarchy</title>
+  <style>
+    * { color: black; }
+    p { color: blue; }
+    .class-example { color: green; }
+    #id-example { color: red; }
+  </style>
+</head>
+<body>
+  <p>Element</p>
+  <p class="class-example">Class</p>
+  <p id="id-example" class="class-example">ID</p>
+  <p id="id-example" class="class-example" style="color: purple;">Inline</p>
+</body>
+</html>
