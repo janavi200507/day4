@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 14 - Combined Selectors</title>
+  <style>
+    form {
+      width: 300px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #f8fafc;
+      border-radius: 10px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    form input[type="text"],
+    form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+    }
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 16px;
+      margin-top: 12px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <label>Username</label>
+    <input type="text" />
+    <label>Password</label>
+    <input type="password" />
+    <button>Login</button>
+  </form>
+</body>
+</html>
